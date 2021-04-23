@@ -21,6 +21,9 @@ steps:
     npm run coverage
   displayName: 'npm install and build'
 
+## Can't see test results. Check this? https://stackoverflow.com/questions/51720050/how-to-publish-jest-unit-test-results-in-vsts-tests
+
+
 - task: PublishCodeCoverageResults@1
   inputs:
     codeCoverageTool: Cobertura
