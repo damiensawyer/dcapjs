@@ -5,7 +5,7 @@
  * @returns sum of a and b
  */
  export function sum(a: number, b: number) {
-    return a + b;
+    return a + b + 1;
 }
 
 export function subtract(a: number, b: number){
