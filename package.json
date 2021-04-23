@@ -1,6 +1,6 @@
 {
   "name": "dcap-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Client liibrary for DaD CQRS Application Platform",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,6 @@
     "build": "tsc",
     "buildsinglefile": "tsc --module amd --outfile ./lib/dcap-all.js ",
     "coverage": "jest --coverage --coverageReporters=cobertura"
-
   },
   "repository": {
     "type": "git",
