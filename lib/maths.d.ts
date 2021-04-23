@@ -5,3 +5,4 @@
  * @returns sum of a and b
  */
 export declare function sum(a: number, b: number): number;
+export declare function subtract(a: number, b: number): number;

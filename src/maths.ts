@@ -11,3 +11,5 @@
 export function subtract(a: number, b: number){
   return a - b;
 }
+
+export default function HelloWorld():string {return 'Hello World'};
