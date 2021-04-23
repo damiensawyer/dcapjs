@@ -12,7 +12,13 @@ import hw, {sum} from '../src/maths'; // Shows optionally getting the default ex
     it('should subtract two numbers', () => {
       expect(m.subtract(10,5)).toEqual(5); /*? result */
     });
-  });/*  */
+  });
+
+  describe('Multiply Numbers', () => {
+    it('should multiply two numbers', () => {
+      expect(m.multiply(10,5)).toEqual(50); /*? result */
+    });
+  });
 
   describe('Hellow World', () => {
     it('Gets the detault export of the module', () => {
