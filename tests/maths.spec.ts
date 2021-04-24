@@ -20,6 +20,13 @@ import hw, {sum} from '../src/maths'; // Shows optionally getting the default ex
     });
   });
 
+  describe('Divide Numbers', () => {
+    it('should Divide two numbers', () => {
+      expect(m.divide(30,10)).toEqual(3); /*? result */
+    });
+  });
+
+
   describe('Hellow World', () => {
     it('Gets the detault export of the module', () => {
       expect(hw()).toEqual('Hello World'); /*? result */
