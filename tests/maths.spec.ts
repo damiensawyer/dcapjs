@@ -10,7 +10,7 @@ import hw, {sum} from '../src/maths'; // Shows optionally getting the default ex
 
   describe('Subtract Numbers', () => {
     it('should subtract two numbers', () => {
-      expect(m.subtract(10,5)).toEqual(5); /*? result */
+      expect(m.subtract(10,7)).toEqual(3); /*? result */
     });
   });
 
