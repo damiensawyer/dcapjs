@@ -1,0 +1,20 @@
+#tests
+tests
+coverage
+
+#build tools
+
+#linters
+.jscsrc
+.jshintrc
+.eslintrc*
+
+#editor settings
+.idea
+.editorconfig
+
+#source
+src
+
+azure-pipelines.*
+tsconfig.json
