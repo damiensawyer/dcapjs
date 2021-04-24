@@ -33,3 +33,4 @@ If you have published my-lib version1.0.0 with tag latest and 1.0.1-rc1 with tag
      - push to master will do a release
      - I don't care about migrating a pre-release version number through to release. I'm more interested in just doing a git push and it ending up in NPM
      - How do we increment version numbers? This looks interesting. https://blog.danskingdom.com/Custom-version-numbers-in-Azure-DevOps-yaml-pipelines/
+    - Passing variables from build to release 
