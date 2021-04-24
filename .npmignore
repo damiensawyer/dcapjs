@@ -1,6 +1,7 @@
 #tests
 tests
 coverage
+jest.config.js
 
 #build tools
 
