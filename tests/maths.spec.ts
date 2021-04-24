@@ -16,7 +16,7 @@ import hw, {sum} from '../src/maths'; // Shows optionally getting the default ex
 
   describe('Multiply Numbers', () => {
     it('should multiply two numbers', () => {
-      expect(m.multiply(10,5)).toEqual(50); /*? result */
+      expect(m.multiply(10,6)).toEqual(60); /*? result */
     }); 
   });
 
