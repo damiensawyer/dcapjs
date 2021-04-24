@@ -17,12 +17,12 @@ import hw, {sum} from '../src/maths'; // Shows optionally getting the default ex
   describe('Multiply Numbers', () => {
     it('should multiply two numbers', () => {
       expect(m.multiply(10,5)).toEqual(50); /*? result */
-    });
+    }); 
   });
 
   describe('Divide Numbers', () => {
     it('should Divide two numbers', () => {
-      expect(m.divide(30,10)).toEqual(3); /*? result */
+      expect(m.divide(300,10)).toEqual(30); /*? result */
     });
   });
 
