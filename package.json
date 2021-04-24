@@ -1,6 +1,5 @@
 {
   "name": "dcapjstemp",
-  "version": "1.0.3",
   "description": "Client liibrary for DaD CQRS Application Platform",
   "main": "index.js",
   "scripts": {
