@@ -2,7 +2,7 @@
   "name": "dcapjstemp",
   "description": "Client library for DaD CQRS Application Platform",
   "main": "index.js",
-  "private": "true",
+  "private": "false",
   "scripts": {
     "test": "jest",
     "build": "tsc",
