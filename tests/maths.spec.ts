@@ -26,6 +26,13 @@ import hw, {sum} from '../src/maths'; // Shows optionally getting the default ex
     });
   });
 
+describe('Double Numbers', () => {
+    it('should double two numbers', () => {
+      expect(m.doubleNumber(300)).toEqual(600); /*? result */
+    });
+  });
+
+
 
   describe('Hello World', () => {
     it('Gets the detault export of the module', () => {
