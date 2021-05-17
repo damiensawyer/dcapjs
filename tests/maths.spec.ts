@@ -27,7 +27,7 @@ import hw, {sum} from '../src/maths'; // Shows optionally getting the default ex
   });
 
 
-  describe('Hellow World', () => {
+  describe('Hello World', () => {
     it('Gets the detault export of the module', () => {
       expect(hw()).toEqual('Hello World'); /*? result */
     });
