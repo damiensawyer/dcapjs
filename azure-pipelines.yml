@@ -5,7 +5,7 @@
 
 # Good post on versioning. There's another option in there discussing not starting fro zero. https://blog.danskingdom.com/Custom-version-numbers-in-Azure-DevOps-yaml-pipelines/
 # Can update the major and minor versions here manually and then (Rev:r) will reset back to 0.
-name: '1.1.$(Rev:r)'
+name: '1.0.$(Rev:r)'
 
 trigger:
  branches:
