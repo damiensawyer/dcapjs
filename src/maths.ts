@@ -21,4 +21,7 @@ export function subtract(a: number, b: number){
   return a - b;
 }
 
+/**https://stackoverflow.com/a/40270735 */
+export const doubleNumber =  (a: number) : number => a * 2;
+
 export default function HelloWorld():string {return 'Hello World'};
